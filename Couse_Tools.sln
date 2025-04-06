@@ -1,10 +1,7 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Задание1_1", "Задание1_1\Задание1_1.csproj", "{EF886E16-191B-49D9-86D6-FDB6E9E02F16}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание2_1", "Задание2_1\Задание2_1.csproj", "{1CF24B66-1BFB-4851-9507-7955A47D8091}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание2_2", "Задание2_2\Задание2_2.csproj", "{98D65C74-E2A8-4406-ABBA-78B75123C6E5}"
@@ -167,10 +164,12 @@ Global
 		{5264756B-96DF-4707-93DA-982ECE0D990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5264756B-96DF-4707-93DA-982ECE0D990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5264756B-96DF-4707-93DA-982ECE0D990D}.Release|Any CPU.Build.0 = Release|Any CPU
+Задание_5
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
