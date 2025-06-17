@@ -2,6 +2,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Задание_15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание15_1", "Задание15_1\Задание15_1.csproj", "{DA94AF30-8B95-4381-B113-A0CC10CE9668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание15_2", "Задание15_2\Задание15_2.csproj", "{7D1BE1DF-7B65-486B-9823-1387756D202D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание15_3", "Задание15_3\Задание15_3.csproj", "{4766EE53-7539-4780-BB82-0EB835791FC9}"
+
  Задание_14
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание14_1", "Задание14_1\Задание14_1.csproj", "{8F3D1883-791F-48EE-A2F3-B8389A7BBD56}"
 EndProject
@@ -104,6 +111,7 @@ master
  master
 master
  mastermaster
+ master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +119,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+Задание_15
+		{DA94AF30-8B95-4381-B113-A0CC10CE9668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA94AF30-8B95-4381-B113-A0CC10CE9668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA94AF30-8B95-4381-B113-A0CC10CE9668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA94AF30-8B95-4381-B113-A0CC10CE9668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1BE1DF-7B65-486B-9823-1387756D202D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1BE1DF-7B65-486B-9823-1387756D202D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1BE1DF-7B65-486B-9823-1387756D202D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1BE1DF-7B65-486B-9823-1387756D202D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4766EE53-7539-4780-BB82-0EB835791FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4766EE53-7539-4780-BB82-0EB835791FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4766EE53-7539-4780-BB82-0EB835791FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4766EE53-7539-4780-BB82-0EB835791FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
   Задание_14
 		{8F3D1883-791F-48EE-A2F3-B8389A7BBD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F3D1883-791F-48EE-A2F3-B8389A7BBD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -342,6 +364,7 @@ master
 master
 master
  master
+master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
