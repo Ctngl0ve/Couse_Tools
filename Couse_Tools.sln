@@ -2,6 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Задание_12
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание12_1", "Задание12_1\Задание12_1.csproj", "{56267032-77A0-4D0A-ADC3-117ABFC709A3}"
+
  Задание_11
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание11_1", "Задание11_1\Задание11_1.csproj", "{2EFD398F-8A51-4D17-BDAF-26ADBC6D2532}"
 EndProject
@@ -88,6 +91,7 @@ master
  master
  master
  master
+master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+ Задание_12
+		{56267032-77A0-4D0A-ADC3-117ABFC709A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56267032-77A0-4D0A-ADC3-117ABFC709A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56267032-77A0-4D0A-ADC3-117ABFC709A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56267032-77A0-4D0A-ADC3-117ABFC709A3}.Release|Any CPU.Build.0 = Release|Any CPU
+
  Задание_11
 		{2EFD398F-8A51-4D17-BDAF-26ADBC6D2532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2EFD398F-8A51-4D17-BDAF-26ADBC6D2532}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -294,6 +304,7 @@ master
  master
  master
  master
+master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
