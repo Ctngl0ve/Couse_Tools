@@ -2,6 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Задание2_3
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание2_3_1", "Задание2_3_1\Задание2_3_1.csproj", "{DB7CB575-111E-4936-9B9F-5AD4F9C8C616}"
+
 Задание2_2
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание2_2-1", "Задание2_2-1\Задание2_2-1.csproj", "{A52AFE33-4934-4A47-B6CD-580FB8B8B664}"
 
@@ -129,6 +132,7 @@ master
 master
 master
  master
+master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -136,12 +140,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+ Задание2_3
+		{DB7CB575-111E-4936-9B9F-5AD4F9C8C616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7CB575-111E-4936-9B9F-5AD4F9C8C616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7CB575-111E-4936-9B9F-5AD4F9C8C616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7CB575-111E-4936-9B9F-5AD4F9C8C616}.Release|Any CPU.Build.0 = Release|Any CPU
+
 Задание2_2
 		{A52AFE33-4934-4A47-B6CD-580FB8B8B664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A52AFE33-4934-4A47-B6CD-580FB8B8B664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A52AFE33-4934-4A47-B6CD-580FB8B8B664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A52AFE33-4934-4A47-B6CD-580FB8B8B664}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
+
 Задание2_1
 		{16E11034-B747-4535-A3DE-8F03262840BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{16E11034-B747-4535-A3DE-8F03262840BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -407,6 +417,7 @@ master
 master
 master
  master
+master
 master
 master
 master
