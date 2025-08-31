@@ -1,0 +1,142 @@
+﻿<Window x:Class="Задание2_3_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Задание2_3_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="*"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row ="0">
+            <Label Content="ФИО: " 
+                   Margin="5 10,5,5"
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <StackPanel Grid.Row ="1">
+            <TextBox x:Name="fIO" Text=" "
+                       Margin="25, 5, 25, 5"
+                       ToolTip="Введите свои персональные данные: Фамилию;Имя;Отчество(при наличии)"
+                       FontSize="20" FontFamily="Futura PT Light" TextWrapping="Wrap" 
+                     />
+        </StackPanel>
+        <StackPanel Grid.Row ="2">
+            <Label Content="Пол: " 
+                   Margin="5"
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <Grid Grid.Row ="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <RadioButton x:Name="man" GroupName="Gender" Grid.Column="0"  Margin="25, 5, 25, 5" Content="Мужской" FontSize="16" FontFamily="Futura PT Light" />
+            <RadioButton x:Name="woman" GroupName="Gender" Grid.Column="1"  Margin="25, 5, 25, 5" Content="Женский" FontSize="16" FontFamily="Futura PT Light"/>
+            <RadioButton x:Name="ban" GroupName="Gender" Grid.Column="2"  Margin="25, 5, 25, 5" Content="Помогите разобраться" FontSize="16" FontFamily="Futura PT Light" Checked="ban_Checked"/>
+        </Grid>
+        <StackPanel Grid.Row ="4">
+            <Label Content="Факультет: " 
+                   Margin="5"
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <ComboBox x:Name="Facylty" Grid.Row ="5" Margin="25, 5, 25, 5" FontSize="20" FontFamily="Futura PT Light"
+                   ToolTip="В раскрывающимся списке выберите нужное значение"
+                  >
+            <ComboBoxItem>Промышленное и Гражданское Строительство (ПГС)</ComboBoxItem>
+            <ComboBoxItem>Школа Архитектуры, Дизайна и Искусств</ComboBoxItem>
+            <ComboBoxItem>Агропромышленный</ComboBoxItem>
+            <ComboBoxItem>Биоинженерия и ветеринарная медицина</ComboBoxItem>
+            <ComboBoxItem>Военный учебный центр</ComboBoxItem>
+            <ComboBoxItem>Дорожно-транспортный</ComboBoxItem>
+            <ComboBoxItem>Инженерно-строительный</ComboBoxItem>
+            <ComboBoxItem>Кораблестроение и морская техника</ComboBoxItem>
+            <ComboBoxItem>Международный</ComboBoxItem>
+            <ComboBoxItem>Сервис и туризм</ComboBoxItem>
+            <ComboBoxItem>Агропромышленный</ComboBoxItem>
+            <ComboBoxItem>Социально-гуманитарный</ComboBoxItem>
+            <ComboBoxItem>Транспорт, сервис и эксплуатация</ComboBoxItem>
+            <ComboBoxItem>Энергетика и нефтегазопромышленность</ComboBoxItem>
+            <ComboBoxItem>Юридический</ComboBoxItem>
+            <ComboBoxItem>Институт креативных индустрий</ComboBoxItem>
+        </ComboBox>
+        <StackPanel Grid.Row ="6">
+            <Label Content="Форма обучения: " 
+                   Margin="5"
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <Grid Grid.Row ="7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <RadioButton x:Name="ofline" GroupName="line" Grid.Column="0"  Margin="25, 5, 25, 5" Content="Очно" FontSize="16" FontFamily="Futura PT Light" />
+            <RadioButton x:Name="online" GroupName="line" Grid.Column="1"  Margin="25, 5, 25, 5" Content="Заочно" FontSize="16" FontFamily="Futura PT Light" />
+        </Grid>
+
+        <StackPanel Grid.Row ="9">
+            <Label Content="Желаемое количество часов: " 
+                   Margin="5"
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <Grid Grid.Row ="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Slider x:Name="clock" Grid.Column="0" Margin="5,10,5,5" Padding="3"
+                Minimum="1" Maximum="300" Value ="0" ValueChanged="clock_ValueChanged"/>
+            <TextBlock x:Name="textBlockSlider"  Grid.Column="1" Text="0"
+                       Width="75"
+                       Margin="25, 5, 25, 5"
+                       FontSize="20" FontFamily="Futura PT Light" />
+
+        </Grid>
+        <StackPanel Grid.Row ="11">
+            <Label Content="Доступные курсы: " 
+                   Margin="5"
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <ListBox x:Name="listCourse" Grid.Row="12" SelectionMode="Multiple" Margin="25, 5, 25, 5">
+            <ListViewItem>C#</ListViewItem>
+            <ListViewItem>C++</ListViewItem>
+            <ListViewItem>C</ListViewItem>
+            <ListViewItem>Revit</ListViewItem>
+            <ListViewItem>AutoCad</ListViewItem>
+            <ListViewItem>Renga</ListViewItem>
+        </ListBox>
+        <StackPanel Grid.Row ="13">
+            <CheckBox x:Name ="chechBox" Content="Я согласен на обработку персональных данных" 
+                      Margin="25, 5, 25, 5"
+                      FontSize="16" FontFamily="Futura PT Light" 
+                      IsChecked="False"   />
+        </StackPanel>
+        <Button x:Name="button" Grid.Row="14" Content="Записаться" Click="Button_Click"
+                Margin="25, 5,25,10"
+                FontSize="16" FontFamily="Futura PT Light" />
+
+    </Grid>
+</Window>
