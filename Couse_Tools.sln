@@ -2,6 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Задание2_4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание2_4-1", "Задание2_4-1\Задание2_4-1.csproj", "{9A78F90E-8442-45FA-8F56-858A6AE3B602}"
+
 Задание2_5
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание2_5-1", "Задание2_5-1\Задание2_5-1.csproj", "{84D03E16-C867-4990-8211-BB93FB713861}"
 
@@ -137,6 +140,7 @@ master
 master
 master
 master
+master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -144,6 +148,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+Задание2_4
+		{9A78F90E-8442-45FA-8F56-858A6AE3B602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A78F90E-8442-45FA-8F56-858A6AE3B602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A78F90E-8442-45FA-8F56-858A6AE3B602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A78F90E-8442-45FA-8F56-858A6AE3B602}.Release|Any CPU.Build.0 = Release|Any CPU
+
 Задание2_5
 		{84D03E16-C867-4990-8211-BB93FB713861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84D03E16-C867-4990-8211-BB93FB713861}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -427,6 +437,7 @@ master
 master
 master
  master
+master
 master
 master
 master
