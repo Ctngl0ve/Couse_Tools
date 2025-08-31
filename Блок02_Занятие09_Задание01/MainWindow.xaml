@@ -7,19 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.CommandBindings>
-        <CommandBinding Command="local:MyCommand.routedUICommand" Executed="CommandBinding_Executed" />
+        <CommandBinding x:Name="commandBindingColorChangeMenu" Command="local:MyCommand.routedUICommand" Executed="CommandBinding_Executed" />
         <CommandBinding Command="ApplicationCommands.Undo" Executed="Undo" />
     </Window.CommandBindings>
     <Grid >
         <Menu x:Name="menu" VerticalAlignment="Top" Padding="5">
             <MenuItem Header="Дейтсвия">
-                <MenuItem x:Name="ColorChangeMenu" Command="local:MyCommand.routedUICommand"/>
+                <MenuItem x:Name="ColorChangeMenu" Header="Изменить цвет" Command="local:MyCommand.routedUICommand"/>
                 <Separator/>
                 <MenuItem x:Name="ColorChangeCancel" Header="Отменить" Command="ApplicationCommands.Undo"/>
             </MenuItem>
         </Menu>
-        <Grid x:Name="ColorChangeGrid" Margin="50" Background="{Binding ColorChangeMenu}"/>
-        
+        <Grid x:Name="ColorChangeGrid" Margin="50" Background="{Binding ColorChangeMenu}">
+            <Button x:Name="buttonChangeColor" Content="{Binding ElementName=ColorChangeMenu, Path=Header}" 
+                    Width="150" Height="50" HorizontalAlignment="Left" Margin="100" Command="local:MyCommand.routedUICommand" />
+            <Button x:Name="buttonChangeColorCancel" Content="{Binding ElementName=ColorChangeCancel, Path=Header}" 
+                    Width="150" Height="50" HorizontalAlignment="Right" Margin="100" Command="ApplicationCommands.Undo" />
+        </Grid>
+
 
     </Grid>
 </Window>

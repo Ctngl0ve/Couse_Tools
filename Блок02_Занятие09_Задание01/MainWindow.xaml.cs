@@ -19,17 +19,14 @@ namespace Блок02_Занятие09_Задание01
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
         }
-
         Random random = new Random();
-
         private Stack<Brush> _colorHistory = new Stack<Brush>();
-
         private Brush _color;
-
         public Brush CurrentColor
         {
             get => _color;
@@ -45,8 +42,6 @@ namespace Блок02_Занятие09_Задание01
             }
 
         }
-
-
         private void CommandBinding_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             CurrentColor = new SolidColorBrush(Color.FromRgb(
@@ -55,10 +50,7 @@ namespace Блок02_Занятие09_Задание01
             (byte)random.Next(256)));
 
             ColorChangeGrid.Background = CurrentColor;
-
         }
-
-
         private void Undo(object sender, ExecutedRoutedEventArgs e)
         {
             if (_colorHistory.Count > 1)
@@ -69,4 +61,5 @@ namespace Блок02_Занятие09_Задание01
 
         }
     }
+
 }
