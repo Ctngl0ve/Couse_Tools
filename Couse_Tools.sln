@@ -2,6 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Блок2_Занятие7
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Блок2_Занятие7_Задание2.7.1", "Блок2_Занятие7_Задание2.7.1\Блок2_Занятие7_Задание2.7.1.csproj", "{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}"
+
  Блок2_Занятие6
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Блок2_Занятие6_Задание1", "Блок2_Занятие6_Задание1\Блок2_Занятие6_Задание1.csproj", "{F4229C03-67B6-4CE7-B6B2-DA04C5FD1B55}"
 
@@ -145,6 +148,7 @@ master
 master
 master
 master
+master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +156,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+Блок2_Занятие7
+		{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+
  Блок2_Занятие6
 		{F4229C03-67B6-4CE7-B6B2-DA04C5FD1B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4229C03-67B6-4CE7-B6B2-DA04C5FD1B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -437,6 +447,7 @@ Global
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA60CB7-170C-4339-8B43-12B8E5191CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+master
 master
 master
 master
