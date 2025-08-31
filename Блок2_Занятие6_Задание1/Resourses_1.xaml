@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    
+    <Style TargetType="TextBox" x:Key="txtBox_1">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily"  Value="Futura PT Light "/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Padding" Value="10"/>
+    </Style>
+
+    
+    <Style TargetType="CheckBox" x:Key="chckBox_1">
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="FontFamily"  Value="Futura PT Light "/>
+    </Style>
+
+    <Style TargetType="TextBlock" x:Key="txtBlock_1">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily"  Value="Futura PT Light "/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Padding" Value="10"/>
+    </Style>
+    
+    
+    
+    
+</ResourceDictionary>
