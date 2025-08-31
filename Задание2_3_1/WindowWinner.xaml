@@ -1,0 +1,56 @@
+﻿<Window x:Class="Задание2_3_1.WindowWinner"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Задание2_3_1"
+        mc:Ignorable="d"
+        Title="WindowWinner" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+            <RowDefinition Height ="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row ="0">
+            <Label Content="Дополнительная игра " 
+                   HorizontalAlignment="Center"
+                   Margin="5 10,5,5" 
+                   FontSize="20" FontFamily="Futura PT Light"    
+                   />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Введите число: " Grid.Column="0"
+                   Margin="5 10,5,5" 
+                   FontSize="18" FontFamily="Futura PT Light" >
+            </Label>
+            <Label Content="Число компьютера " Grid.Column="1"
+                   Margin="5 10,5,5" 
+                   FontSize="18" FontFamily="Futura PT Light" >
+            </Label>
+
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="textBlock_2Player"  Grid.Column="0"  Margin="25, 5, 25, 5"
+                   Text="0"
+                   TextWrapping="Wrap" FontSize="18" FontFamily="Futura PT Light"/>
+            <TextBox x:Name="textBlock_Comp"  Grid.Column="1"  Margin="25, 5, 25, 5"
+                   Text="0"
+                   TextWrapping="Wrap" FontSize="18" FontFamily="Futura PT Light" />
+        </Grid>
+        <Button x:Name="button_2Player" Grid.Row="3" Content="Ввод"  Margin="25, 5, 25, 5" Click="button_2Player_Click"/>
+    </Grid>
+</Window>
