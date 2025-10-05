@@ -1,0 +1,45 @@
+﻿<Window x:Class="Блок2_Занятие6_Задание1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Блок2_Занятие6_Задание1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="VisibilityConverter"/>
+        <!--забавно, но тут он не давал сделать "local:"-->
+    </Window.Resources>
+
+    <StackPanel>
+        <TextBox Style="{StaticResource txtBox_1}"
+                     x:Name="textBox_1"
+                     Text="Введите текст"/>
+
+        <CheckBox Style="{StaticResource chckBox_1}"
+                      x:Name="checkBox_1" 
+                      Content="Показать детали"/>
+        <StackPanel   
+            Visibility="{Binding ElementName=checkBox_1, Path=IsChecked, Converter={StaticResource VisibilityConverter}}">
+
+            <TextBlock Style="{StaticResource txtBlock_1}"
+                Text="{Binding StringFormat= Длина текста: {0}, ElementName=textBox_1, Path=Text.Length}"
+                     />
+
+            <ProgressBar x:Name="progressBar_1" 
+                         Maximum="100" 
+                         Margin="10" Padding="10"
+                         Value="{Binding ElementName=textBox_1, Path=Text.Length, Mode=OneWay}"/>
+
+            <Slider x:Name="slider_1"
+                    Minimum="100" Maximum="1000"
+                    Margin="10" Padding="10" 
+                    Value="{Binding ElementName=textBox_1, Path=Text.Length, Mode=OneWay}"/>
+            <Rectangle x:Name="rectangle_1"
+                        Margin="10"
+                      
+                       />
+        </StackPanel>
+    </StackPanel>
+
+</Window>
