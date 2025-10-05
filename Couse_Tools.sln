@@ -2,6 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+ Блок2_Занятие8
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Блок2_Занятие8_Задание2_8_1", "Блок2_Занятие8_Задание2_8_1\Блок2_Занятие8_Задание2_8_1.csproj", "{B2A2C522-7C6D-4116-8941-9BD82508F957}"
+=======
 Блок2_Занятие7
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Блок2_Занятие7_Задание2.7.1", "Блок2_Занятие7_Задание2.7.1\Блок2_Занятие7_Задание2.7.1.csproj", "{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}"
 
@@ -149,6 +152,7 @@ master
 master
 master
 master
+ master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,6 +160,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+ Блок2_Занятие8
+		{B2A2C522-7C6D-4116-8941-9BD82508F957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A2C522-7C6D-4116-8941-9BD82508F957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A2C522-7C6D-4116-8941-9BD82508F957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A2C522-7C6D-4116-8941-9BD82508F957}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 Блок2_Занятие7
 		{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{529E9B2B-8067-40EC-BCBB-74733EAEEEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -466,6 +476,7 @@ master
 master
 master
 master
+ master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
