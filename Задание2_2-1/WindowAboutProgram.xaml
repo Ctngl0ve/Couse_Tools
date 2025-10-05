@@ -1,0 +1,86 @@
+﻿<Window x:Class="Задание2_2_1.WindowAboutProgram"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Задание2_2_1"
+        mc:Ignorable="d"
+        Title="WindowAboutProgram" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row = "0" Grid.ColumnSpan ="3" 
+                   Text="Простой текстовый редактор"
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                   Margin="0" Padding="20"
+                   FontSize="24" FontWeight="Bold"  
+                   />
+            <Image Grid.Row="1" Grid.Column="1" Source="/img/photo_2025-06-26_21-53-47.jpg" 
+            Width="Auto" Height="Auto" 
+            Margin="0" 
+                />
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <Label 
+               Content="Автор:" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"
+               Margin="0"  Padding="10"
+               />
+                <Label 
+               Content="Версия:" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"
+               Margin="0"  Padding="10"
+               />
+                <Label 
+               Content="Дата создания:" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"
+               Margin="0"  Padding="10"
+               />
+            </StackPanel>
+            <StackPanel Grid.Column="1" >
+                <TextBox x:Name="textboxName"
+                         Text="ФИО" 
+                         HorizontalAlignment="Left" VerticalAlignment="Top" 
+                         Margin="0" Padding="10" 
+                         BorderBrush="White" 
+            />
+                <TextBox x:Name="textboxVersion"
+                         Text="ФИО" 
+                         HorizontalAlignment="Left" VerticalAlignment="Top" 
+                         Margin="0" Padding="10" 
+                         BorderBrush="White" 
+          
+            />
+                <TextBox x:Name="textboxDate"
+                 
+                        Text="Дата" 
+                        HorizontalAlignment="Left" VerticalAlignment="Top" 
+                        Margin="0" Padding="10"
+                BorderBrush="White" 
+                />
+            </StackPanel>
+
+        </Grid>
+
+        <Button Grid.Column="1" Grid.Row="3" Content="Закрыть" 
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                Margin="10" Padding="5"
+                Width ="150" Click="Button_Click"
+                />
+    </Grid>
+</Window>
